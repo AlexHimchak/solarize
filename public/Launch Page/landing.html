@@ -18,9 +18,8 @@
             <header class="nav">
                 <div class="container">
                     <div class="nav-left">
-                        <a class="nav-item" href="landing.html">
-              <img src="#" alt="Logo">
-            </a>
+                        <a class="nav-item" href="landing.html">Home          
+                        </a>
                     </div>
                     <span class="nav-toggle">
             <span></span>
@@ -28,7 +27,7 @@
                     <!-- <span></span> -->
                     </span>
                     <div class="nav-right nav-menu">
-                        <a class="nav-item is-active">
+                        <!-- <a class="nav-item is-active">
               Home
             </a>
                         <a class="nav-item is-active">
@@ -36,14 +35,14 @@
             </a>
                         <a class="nav-item is-active">
               Other Stuff
-            </a>
+            </a> -->
                         <span class="dropdown is-active">
               <div class="dropdown-trigger">
               <a class="button is-info is-outlined is-inverted">
-                <span class="icon">
-                  <i class="fa fa-github"></i>
+                <!-- <span class="icon">
+                  <i class="fa fa-github"></i> -->
                 </span>
-                        <span>User Login</span>
+                        <span>Client Login</span>
                         </a>
                         </span>
                     </div>
@@ -52,6 +51,7 @@
         </div>
         <div class="hero-body">
             <div class="container has-text-centered">
+                <img src="../solarize-icon-white.png" alt="Logo" height="120" width="120">
                 <h1 class="title is-2" id="main-title">
           Solarize
         </h1>
@@ -60,6 +60,7 @@
         </h2>
                 <br>
                 <br>
+                <!-- Lead request modal -->
                 <p>
                     <div class="modal">
                         <div class="modal-background"></div>
@@ -73,7 +74,6 @@
                                     <p>FIND OUT HOW MUCH YOU CAN SAVE</p>
                                     <input type="hidden" name="oid" value="00D80000000dNiA">
                                     <input type="hidden" name="retURL" value="#">
-                                    <!--ADJUST TO THE THANK YOU PAGE YOU WANT-->
                                     <div>
                                         <input id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="First Name" required="">
                                     </div>
@@ -97,7 +97,7 @@
                                             <div class="tier">
                                                 <input id="state" maxlength="2" name="city" size="20" type="text" placeholder="State">
                                             </div>
-                                        </div> 
+                                        </div>
                                         <div class="tier">
                                             <input id="zip" maxlength="5" name="zip" size="20" type="text" placeholder="Zip">
                                         </div>
@@ -112,14 +112,14 @@
                             </footer>
                         </div>
                     </div>
-                    <a class="button is-outlined" id="showModal">
-            <!-- <span class="icon">
+                    <a class="button is-outlined modal-open">
+                        <!-- <span class="icon">
               <i class="fa fa-download"></i> 
             </span> -->
-            <span>
+                        <span>
               Request Info
             </span>
-          </a>
+                    </a>
                 </p>
             </div>
         </div>
@@ -127,7 +127,7 @@
     <div class="hero-cta">
         <nav class="level">
             <div class="level-item has-text-centered">
-                <p class="title">Click to get Started <a class="button is-primary"><span class="icon"><i class="fa fa-download"></i></span><span>Intent</span></a></p>
+                <p class="title">Click to get Started <a class="button is-dark modal-open"><!-- <span class="icon"><i class="fa fa-download"></i></span> --><span>Quote</span></a></p>
             </div>
         </nav>
     </div>
@@ -137,20 +137,9 @@
                 <div class="column is-4">
                     <div class="panel">
                         <div class="panel-block section">
-                            <p class="has-text-centered"><i class="fa fa-camera-retro icon-block"></i></p>
+                            <p class="has-text-centered"><i class="fa fa-money icon-block"></i></p>
                             <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
-                            <br>
-                            <p class="has-text-centered"><a class="button is-dark">More Info</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-4">
-                    <div class="panel">
-                        <div class="panel-block section">
-                            <p class="has-text-centered"><i class="fa fa-bar-chart icon-block"></i></p>
-                            <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+                            <p>Reduce your electric bill</p>
                             <br>
                             <p class="has-text-centered"><a class="button is-dark">More Info</a></p>
                         </div>
@@ -159,33 +148,85 @@
                 <div class="column is-4">
                     <div class="panel">
                         <div class="panel-block section">
-                            <p class="has-text-centered"><i class="fa fa-cloud icon-block"></i></p>
+                            <p class="has-text-centered"><i class="fa fa-globe icon-block"></i></p>
                             <br>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.</p>
+                            <p>Help save the environment</p>
                             <br>
                             <p class="has-text-centered"><a class="button is-dark">More Info</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-4">
+                    <div class="panel">
+                        <div class="panel-block section">
+                            <p class="has-text-centered"><i class="fa fa-line-chart icon-block"></i></p>
+                            <br>
+                            <p>Protect against rising energy costs</p>
+                            <br>
+                            <p class="has-text-centered">
+                                <div class="dropdown is-hoverable">
+                                    <div class="dropdown-trigger">
+                                        <button class="button is-dark" aria-haspopup="true" aria-controls="dropdown-menu2">
+                                            <span>More Info</span>
+                                            <!-- <span class="icon is-small">
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+              </span> -->
+                                        </button>
+                                    </div>
+                                    <div class="dropdown-menu" id="dropdown-menu2" role="menu">
+                                        <div class="dropdown-content">
+                                            <div class="dropdown-item">
+                                                <p class="dropcontent">One of the most clear cut benefits of solar panels is the ability to hedge utility prices. In the past ten years, residential electricity prices have gone up by an average of three percent annually. By investing in a solar energy system now, you can fix your electricity rate and protect against unpredictable increases in electricity costs. If you’re a business or homeowner with fluctuating cash flow, going solar also helps you better forecast and manage your expenses.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        </span>
+                                    </div>
+                                    </button>
+                                </div>
+                                </a>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <footer class="footer">
-        <div class="container">
-            <div class="content has-text-centered">
+    <!-- Info modal stuff -->
+    <!-- <a class="button is-primary modal-open "> -->
+    <!-- <div class="modal " id="costs-modal-open ">
+  <div class="modal-background "></div>
+  <div class="modal-content ">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores exercitationem, libero, nobis id velit assumenda magnam numquam repellendus hic soluta maxime nulla accusantium alias est qui harum asperiores distinctio eos.</p>
+  </div>
+  <div class="modal ">
+  <div class="modal-background "></div>
+  <div class="modal-content ">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores exercitationem, libero, nobis id velit assumenda magnam numquam repellendus hic soluta maxime nulla accusantium alias est qui harum asperiores distinctio eos.</p>
+  </div>
+  <div class="modal " id="costs-modal-open ">
+  <div class="modal-background "></div>
+  <div class="modal-content ">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores exercitationem, libero, nobis id velit assumenda magnam numquam repellendus hic soluta maxime nulla accusantium alias est qui harum asperiores distinctio eos.</p>
+  </div> -->
+    <!-- <button class="modal-close is-large " aria-label="close "></button>
+</div> -->
+    <footer class="footer ">
+        <div class="container ">
+            <div class="content has-text-centered ">
                 <p>
                     <strong>Solarize &copy 2017</strong>
                 </p>
                 <p>
-                    <a class="icon" href="#">
-            <i class="fa fa-github"></i>
+                    <a class="icon " href="https://github.com/AlexHimchak/solarize ">
+            <i class="fa fa-github "></i>
           </a>
                 </p>
             </div>
         </div>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src="../bulma.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js "></script>
+    <script type="text/javascript " src="../bulma.js "></script>
 </body>
 
 </html>

@@ -6,6 +6,12 @@ img {
   color: ivory;
 }
 
+.dropbutt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .is-dark {
     background-color: #F62459;
     background-image: /*linear-gradient(rgba(25, 181, 254, 0.6), rgba(246, 36, 89, 0.6)), linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),*/ url(http://cdn.wallpapersafari.com/95/7/rpt0IV.jpg) no-repeat center center;
@@ -31,9 +37,25 @@ img {
   background-color: transparent;
 }
 
+.dropcontent {
+  width: 400px;
+  display: flex;
+  font-size: 16px;
+  background-color: black;
+  color: ivory;
+  padding: 10px 10px 10px 10px;
+}
+.dropdown-trigger {
+  text-align: center;
+}
+
 .header-image {
     background-image: linear-gradient(rgba(25, 181, 254, 0.3), rgba(246, 36, 89, 0.2)), url(http://cdn.wallpapersafari.com/95/7/rpt0IV.jpg);
     background-size: cover;
+}
+p {
+  text-align: center;
+  font-size: 20px;
 }
 
 .hero.is-dark .navbar-item a:not(.button),

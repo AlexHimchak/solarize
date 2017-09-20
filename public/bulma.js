@@ -7,7 +7,7 @@
     });
 })();
 
-$("#showModal").click(function() {
+$(".modal-open").click(function() {
   $(".modal").addClass("is-active");  
 });
 
@@ -22,3 +22,7 @@ $("#cancel").click(function() {
 $(".modal-close").click(function() {
    $(".modal").removeClass("is-active");
 });
+
+// $("#costs").click(function() {
+//   $(".modal").addClass("is-active");  
+// });
