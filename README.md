@@ -1,16 +1,9 @@
 # Solarize
 
-Platform for users to create automated leads
+https://solarize.herokuapp.com/
+
 
 *https://github.com/AlexHimchak/solarize*
-
-## Demo
-
-* *
-
-## Slides
-
-* [Google Slide]
 
 ## Built With
 Bootstrap - CSS Framework
